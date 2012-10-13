@@ -1,0 +1,13 @@
+
+#include "stdafx.h"
+#include "DialogAppTk.h"
+
+/////////////////////////////////////////////////////////////////////////////
+TDialogAppTk::TDialogAppTk(){}
+TDialogAppTk::~TDialogAppTk(){}
+/////////////////////////////////////////////////////////////////////////////
+
+void TDialogAppTk::init(SoilCommon::CmdLine* cmdLine)
+{
+	BLLayerCreator::instance()->init(cmdLine);
+}
