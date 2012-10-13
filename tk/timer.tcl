@@ -1,6 +1,8 @@
 #!/bin/sh
 #\
-exec wish8.3 "$0" "$@"
+exec wish8.5 "$0" "$@"
+
+# added in Master
 
 set grad 0.01
 set count [expr [lindex $argv 0] / $grad ]
