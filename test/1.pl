@@ -2,7 +2,7 @@
 
 use strict;
 use Data::Dumper;
- use Test::More tests => 2;
+ use Test::More tests => 4;
 
 use Util;
 
@@ -15,6 +15,12 @@ print "sub2: $y\n";
 
 ok($x eq '1', 'xxxxxxxxx');
 ok($y eq '1', 'yyyyyyyyy');
+
+my $aa = [1, 2, 3];
+my $hh = {1 => 10, 2 => 20};
+isa_ok($aa, 'ARRAY', 'aaaaaa');
+isa_ok($hh, 'HASH', 'hhhhhh');
+
 print "\n------------\n\n";
 
 #
