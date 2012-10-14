@@ -2,7 +2,7 @@
 
 use strict;
 use Data::Dumper;
- use Test::More tests => 4;
+ use Test::More qw(no_plan);
 
 use Util;
 
