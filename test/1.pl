@@ -13,6 +13,7 @@ print "sub1: $x\n";
 $y = sub2();
 print "sub2: $y\n";
 
+diag('Running tests');
 ok($x eq '1', 'xxxxxxxxx');
 ok($y eq '1', 'yyyyyyyyy');
 
